@@ -1,0 +1,112 @@
+/* Base styles */
+body {
+    background: linear-gradient(120deg, #e3eafc 0%, #f5f7fa 100%);
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #222;
+    margin: 0;
+    padding: 0;
+    line-height: 1.7;
+}
+
+/* Container for content */
+.container {
+    max-width: 900px;
+    margin: 56px auto;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 8px 32px rgba(42,77,143,0.10);
+    padding: 56px 56px 48px 56px;
+    border-left: 8px solid #2a4d8f;
+}
+
+/* Prominent title */
+h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #2a4d8f;
+    margin-bottom: 32px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-shadow: 0 2px 8px rgba(42,77,143,0.08);
+    padding-bottom: 12px;
+    border-bottom: 3px solid #e3eafc;
+}
+
+/* Section headings */
+h2, h3 {
+    color: #1a2a3a;
+    margin-top: 44px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    border-bottom: 2px solid #e3eafc;
+    padding-bottom: 6px;
+}
+
+/* Paragraphs and text */
+p {
+    font-size: 1.18rem;
+    margin-bottom: 24px;
+    padding-left: 4px;
+}
+
+/* Links */
+a {
+    color: #2a4d8f;
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: 1px dotted #2a4d8f;
+    transition: color 0.2s, border-bottom 0.2s;
+    padding: 2px 0;
+}
+a:hover {
+    color: #17407c;
+    border-bottom: 2px solid #17407c;
+    text-decoration: none;
+}
+
+/* Spacing for lists */
+ul, ol {
+    margin-left: 32px;
+    margin-bottom: 24px;
+    padding-left: 8px;
+}
+
+/* Buttons (if any) */
+button, .btn {
+    background: linear-gradient(90deg, #2a4d8f 60%, #17407c 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 14px 32px;
+    font-size: 1.08rem;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(42,77,143,0.10);
+    transition: background 0.2s, box-shadow 0.2s;
+    margin-top: 12px;
+}
+button:hover, .btn:hover {
+    background: linear-gradient(90deg, #17407c 60%, #2a4d8f 100%);
+    box-shadow: 0 4px 16px rgba(42,77,143,0.16);
+}
+
+/* Add spacing between sections */
+section {
+    margin-bottom: 40px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .container {
+        padding: 18px 8px;
+    }
+    h1 {
+        font-size: 2rem;
+        padding-bottom: 8px;
+    }
+    h2, h3 {
+        margin-top: 28px;
+        margin-bottom: 12px;
+        padding-bottom: 4px;
+    }
+}
